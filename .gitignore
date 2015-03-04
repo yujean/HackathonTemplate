@@ -1,0 +1,11 @@
+build
+Super\ Friend.build
+*.mode*
+*pbxuser
+*.perspectivev3
+project.xcworkspace
+*tmproj
+~*
+.DS_Store
+*.orig
+xcuserdata
