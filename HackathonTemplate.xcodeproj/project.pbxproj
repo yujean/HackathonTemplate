@@ -31,6 +31,7 @@
 		A6B21C5A1AA8E6BB005FA5B6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C591AA8E6BB005FA5B6 /* libsqlite3.dylib */; };
 		A6B21C5C1AA8E736005FA5B6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C5B1AA8E736005FA5B6 /* Social.framework */; };
 		A6B21C5E1AA8E749005FA5B6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */; };
+		A6B21C611AA8E965005FA5B6 /* HTParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C601AA8E965005FA5B6 /* HTParseManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		A6B21C591AA8E6BB005FA5B6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		A6B21C5B1AA8E736005FA5B6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A6B21C5F1AA8E965005FA5B6 /* HTParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTParseManager.h; path = Classes/HTParseManager.h; sourceTree = "<group>"; };
+		A6B21C601AA8E965005FA5B6 /* HTParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTParseManager.m; path = Classes/HTParseManager.m; sourceTree = "<group>"; };
 		B5C145BDC8E69EC6A0633F01 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,6 +205,8 @@
 				A6B21C381AA7C263005FA5B6 /* AppDelegate.m */,
 				A6B21C391AA7C263005FA5B6 /* ViewController.h */,
 				A6B21C3A1AA7C263005FA5B6 /* ViewController.m */,
+				A6B21C5F1AA8E965005FA5B6 /* HTParseManager.h */,
+				A6B21C601AA8E965005FA5B6 /* HTParseManager.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -366,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B21C611AA8E965005FA5B6 /* HTParseManager.m in Sources */,
 				A6B21C151AA7C12C005FA5B6 /* HackathonTemplate.xcdatamodeld in Sources */,
 				A6B21C0F1AA7C12C005FA5B6 /* main.m in Sources */,
 				A6B21C3C1AA7C263005FA5B6 /* ViewController.m in Sources */,
