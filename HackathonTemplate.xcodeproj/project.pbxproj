@@ -85,21 +85,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B21C5E1AA8E749005FA5B6 /* Accounts.framework in Frameworks */,
-				A6B21C5C1AA8E736005FA5B6 /* Social.framework in Frameworks */,
+				A6B21C461AA8E67E005FA5B6 /* AudioToolbox.framework in Frameworks */,
+				A6B21C411AA8E62C005FA5B6 /* Bolts.framework in Frameworks */,
+				A6B21C481AA8E682005FA5B6 /* CFNetwork.framework in Frameworks */,
+				A6B21C4A1AA8E687005FA5B6 /* CoreGraphics.framework in Frameworks */,
+				A6B21C4C1AA8E68B005FA5B6 /* CoreLocation.framework in Frameworks */,
+				173CFB6FB46B2233F1848D20 /* libPods.a in Frameworks */,
 				A6B21C5A1AA8E6BB005FA5B6 /* libsqlite3.dylib in Frameworks */,
 				A6B21C581AA8E6B0005FA5B6 /* libz.dylib in Frameworks */,
-				A6B21C561AA8E6A5005FA5B6 /* SystemConfiguration.framework in Frameworks */,
-				A6B21C541AA8E69F005FA5B6 /* StoreKit.framework in Frameworks */,
-				A6B21C521AA8E69C005FA5B6 /* Security.framework in Frameworks */,
-				A6B21C501AA8E696005FA5B6 /* QuartzCore.framework in Frameworks */,
 				A6B21C4E1AA8E690005FA5B6 /* MobileCoreServices.framework in Frameworks */,
-				A6B21C4C1AA8E68B005FA5B6 /* CoreLocation.framework in Frameworks */,
-				A6B21C4A1AA8E687005FA5B6 /* CoreGraphics.framework in Frameworks */,
-				A6B21C481AA8E682005FA5B6 /* CFNetwork.framework in Frameworks */,
-				A6B21C461AA8E67E005FA5B6 /* AudioToolbox.framework in Frameworks */,
-				173CFB6FB46B2233F1848D20 /* libPods.a in Frameworks */,
 				A6B21C421AA8E62C005FA5B6 /* Parse.framework in Frameworks */,
-				A6B21C411AA8E62C005FA5B6 /* Bolts.framework in Frameworks */,
+				A6B21C501AA8E696005FA5B6 /* QuartzCore.framework in Frameworks */,
+				A6B21C521AA8E69C005FA5B6 /* Security.framework in Frameworks */,
+				A6B21C5C1AA8E736005FA5B6 /* Social.framework in Frameworks */,
+				A6B21C541AA8E69F005FA5B6 /* StoreKit.framework in Frameworks */,
+				A6B21C561AA8E6A5005FA5B6 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
