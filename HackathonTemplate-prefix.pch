@@ -23,8 +23,7 @@
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
     #import <AFNetworking/AFNetworking.h>
-
-    #import <AVFoundation/AVFoundation.h>
+    #import <Parse/Parse.h>
 
     // Global utilities:
     #ifdef DEBUG
