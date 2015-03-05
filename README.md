@@ -6,7 +6,7 @@
 * AFNetworking
 * .gitignore
 * HackathonTemplate-Prefix.pch, with debug macros
-* Parse SDK ([https://www.parse.com/apps/quickstart#parse_data/mobile/ios/native/existing](Quick Start Guide), all files are included in this project already.)
+* Parse SDK (Files are included)
 * My undying love
 
 ### Requirements
@@ -20,4 +20,6 @@
 * ``cd`` to directory
 * ``pod install``
 * Use the .xcworkspace file, not the .xcproject file.
-* You'll have a 'single view application', from which you can expand on.  glhf
+* You'll have a 'single view application', from which you can expand on.
+* See Parse [https://www.parse.com/docs](docs) and [https://www.parse.com/tutorials#all](tutorials) for some guidance!
+* Have fun!
