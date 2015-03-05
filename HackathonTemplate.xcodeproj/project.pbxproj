@@ -29,6 +29,8 @@
 		A6B21C561AA8E6A5005FA5B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C551AA8E6A5005FA5B6 /* SystemConfiguration.framework */; };
 		A6B21C581AA8E6B0005FA5B6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C571AA8E6B0005FA5B6 /* libz.dylib */; };
 		A6B21C5A1AA8E6BB005FA5B6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C591AA8E6BB005FA5B6 /* libsqlite3.dylib */; };
+		A6B21C5C1AA8E736005FA5B6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C5B1AA8E736005FA5B6 /* Social.framework */; };
+		A6B21C5E1AA8E749005FA5B6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		A6B21C551AA8E6A5005FA5B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A6B21C571AA8E6B0005FA5B6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A6B21C591AA8E6BB005FA5B6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A6B21C5B1AA8E736005FA5B6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		B5C145BDC8E69EC6A0633F01 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B21C5E1AA8E749005FA5B6 /* Accounts.framework in Frameworks */,
+				A6B21C5C1AA8E736005FA5B6 /* Social.framework in Frameworks */,
 				A6B21C5A1AA8E6BB005FA5B6 /* libsqlite3.dylib in Frameworks */,
 				A6B21C581AA8E6B0005FA5B6 /* libz.dylib in Frameworks */,
 				A6B21C561AA8E6A5005FA5B6 /* SystemConfiguration.framework in Frameworks */,
@@ -110,6 +116,8 @@
 		2AF6070198B8FDE5ACF7B5FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */,
+				A6B21C5B1AA8E736005FA5B6 /* Social.framework */,
 				A6B21C591AA8E6BB005FA5B6 /* libsqlite3.dylib */,
 				A6B21C571AA8E6B0005FA5B6 /* libz.dylib */,
 				A6B21C551AA8E6A5005FA5B6 /* SystemConfiguration.framework */,
