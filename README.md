@@ -6,6 +6,7 @@
 * AFNetworking
 * .gitignore
 * HackathonTemplate-Prefix.pch, with debug macros
+* Parse SDK ([https://www.parse.com/apps/quickstart#parse_data/mobile/ios/native/existing](Quick Start Guide), all files are included in this project already.)
 * My undying love
 
 ### Requirements
