@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		173CFB6FB46B2233F1848D20 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FB8DB0042B0D2BD4E90C16 /* libPods.a */; };
+		A6A3AF141AA902200068B5F5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A3AF121AA902200068B5F5 /* Bolts.framework */; };
+		A6A3AF151AA902200068B5F5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A3AF131AA902200068B5F5 /* Parse.framework */; };
+		A6A3AF161AA903320068B5F5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */; };
 		A6B21C0F1AA7C12C005FA5B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C0E1AA7C12C005FA5B6 /* main.m */; };
 		A6B21C151AA7C12C005FA5B6 /* HackathonTemplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C131AA7C12C005FA5B6 /* HackathonTemplate.xcdatamodeld */; };
 		A6B21C1B1AA7C12C005FA5B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B21C191AA7C12C005FA5B6 /* Main.storyboard */; };
@@ -16,8 +19,6 @@
 		A6B21C2C1AA7C12C005FA5B6 /* HackathonTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C2B1AA7C12C005FA5B6 /* HackathonTemplateTests.m */; };
 		A6B21C3B1AA7C263005FA5B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C381AA7C263005FA5B6 /* AppDelegate.m */; };
 		A6B21C3C1AA7C263005FA5B6 /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C3A1AA7C263005FA5B6 /* HTViewController.m */; };
-		A6B21C411AA8E62C005FA5B6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C3F1AA8E62C005FA5B6 /* Bolts.framework */; };
-		A6B21C421AA8E62C005FA5B6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C401AA8E62C005FA5B6 /* Parse.framework */; };
 		A6B21C461AA8E67E005FA5B6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C451AA8E67E005FA5B6 /* AudioToolbox.framework */; };
 		A6B21C481AA8E682005FA5B6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C471AA8E682005FA5B6 /* CFNetwork.framework */; };
 		A6B21C4A1AA8E687005FA5B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C491AA8E687005FA5B6 /* CoreGraphics.framework */; };
@@ -30,7 +31,6 @@
 		A6B21C581AA8E6B0005FA5B6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C571AA8E6B0005FA5B6 /* libz.dylib */; };
 		A6B21C5A1AA8E6BB005FA5B6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C591AA8E6BB005FA5B6 /* libsqlite3.dylib */; };
 		A6B21C5C1AA8E736005FA5B6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C5B1AA8E736005FA5B6 /* Social.framework */; };
-		A6B21C5E1AA8E749005FA5B6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */; };
 		A6B21C611AA8E965005FA5B6 /* HTParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C601AA8E965005FA5B6 /* HTParseManager.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +47,8 @@
 /* Begin PBXFileReference section */
 		32FB8DB0042B0D2BD4E90C16 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFC9AA473A08D3FF393CB29 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A6A3AF121AA902200068B5F5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Third Party/parse-library-1.6.4/Bolts.framework"; sourceTree = "<group>"; };
+		A6A3AF131AA902200068B5F5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Third Party/parse-library-1.6.4/Parse.framework"; sourceTree = "<group>"; };
 		A6B21C091AA7C12C005FA5B6 /* HackathonTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackathonTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B21C0D1AA7C12C005FA5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6B21C0E1AA7C12C005FA5B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,8 +64,6 @@
 		A6B21C391AA7C263005FA5B6 /* HTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTViewController.h; path = Classes/HTViewController.h; sourceTree = "<group>"; };
 		A6B21C3A1AA7C263005FA5B6 /* HTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTViewController.m; path = Classes/HTViewController.m; sourceTree = "<group>"; };
 		A6B21C3E1AA7C382005FA5B6 /* HackathonTemplate-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackathonTemplate-prefix.pch"; sourceTree = SOURCE_ROOT; };
-		A6B21C3F1AA8E62C005FA5B6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Third Party/parse-library-1.6.4/Bolts.framework"; sourceTree = "<group>"; };
-		A6B21C401AA8E62C005FA5B6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Third Party/parse-library-1.6.4/Parse.framework"; sourceTree = "<group>"; };
 		A6B21C451AA8E67E005FA5B6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A6B21C471AA8E682005FA5B6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A6B21C491AA8E687005FA5B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +79,7 @@
 		A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A6B21C5F1AA8E965005FA5B6 /* HTParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTParseManager.h; path = Classes/HTParseManager.h; sourceTree = "<group>"; };
 		A6B21C601AA8E965005FA5B6 /* HTParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTParseManager.m; path = Classes/HTParseManager.m; sourceTree = "<group>"; };
+		A6B21C641AA9016D005FA5B6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		B5C145BDC8E69EC6A0633F01 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,17 +88,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6B21C5E1AA8E749005FA5B6 /* Accounts.framework in Frameworks */,
+				A6A3AF161AA903320068B5F5 /* Accounts.framework in Frameworks */,
 				A6B21C461AA8E67E005FA5B6 /* AudioToolbox.framework in Frameworks */,
-				A6B21C411AA8E62C005FA5B6 /* Bolts.framework in Frameworks */,
+				A6A3AF141AA902200068B5F5 /* Bolts.framework in Frameworks */,
 				A6B21C481AA8E682005FA5B6 /* CFNetwork.framework in Frameworks */,
 				A6B21C4A1AA8E687005FA5B6 /* CoreGraphics.framework in Frameworks */,
 				A6B21C4C1AA8E68B005FA5B6 /* CoreLocation.framework in Frameworks */,
+				A6A3AF151AA902200068B5F5 /* Parse.framework in Frameworks */,
 				173CFB6FB46B2233F1848D20 /* libPods.a in Frameworks */,
 				A6B21C5A1AA8E6BB005FA5B6 /* libsqlite3.dylib in Frameworks */,
 				A6B21C581AA8E6B0005FA5B6 /* libz.dylib in Frameworks */,
 				A6B21C4E1AA8E690005FA5B6 /* MobileCoreServices.framework in Frameworks */,
-				A6B21C421AA8E62C005FA5B6 /* Parse.framework in Frameworks */,
 				A6B21C501AA8E696005FA5B6 /* QuartzCore.framework in Frameworks */,
 				A6B21C521AA8E69C005FA5B6 /* Security.framework in Frameworks */,
 				A6B21C5C1AA8E736005FA5B6 /* Social.framework in Frameworks */,
@@ -119,6 +120,7 @@
 		2AF6070198B8FDE5ACF7B5FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6B21C641AA9016D005FA5B6 /* AddressBook.framework */,
 				A6B21C5D1AA8E749005FA5B6 /* Accounts.framework */,
 				A6B21C5B1AA8E736005FA5B6 /* Social.framework */,
 				A6B21C591AA8E6BB005FA5B6 /* libsqlite3.dylib */,
@@ -221,8 +223,8 @@
 		A6B21C441AA8E63C005FA5B6 /* Parse */ = {
 			isa = PBXGroup;
 			children = (
-				A6B21C3F1AA8E62C005FA5B6 /* Bolts.framework */,
-				A6B21C401AA8E62C005FA5B6 /* Parse.framework */,
+				A6A3AF121AA902200068B5F5 /* Bolts.framework */,
+				A6A3AF131AA902200068B5F5 /* Parse.framework */,
 			);
 			name = Parse;
 			sourceTree = "<group>";
@@ -519,6 +521,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HackathonTemplate/Third",
 					"Party/parse-library-1.6.4",
+					"$(PROJECT_DIR)/HackathonTemplate/Third",
+					"Party/parse-library-1.6.4",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HackathonTemplate-prefix.pch";
@@ -535,6 +539,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/HackathonTemplate/Third",
+					"Party/parse-library-1.6.4",
 					"$(PROJECT_DIR)/HackathonTemplate/Third",
 					"Party/parse-library-1.6.4",
 				);
