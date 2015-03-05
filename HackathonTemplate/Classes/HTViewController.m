@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  HTViewController.m
 //  HackathonTemplate
 //
 //  Created by Eugene Yee on 3/4/15.
 //
 //
 
-#import "ViewController.h"
+#import "HTViewController.h"
 
-@interface ViewController ()
+@interface HTViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HTViewController
 
 #pragma mark - View Controller Lifecycle
 

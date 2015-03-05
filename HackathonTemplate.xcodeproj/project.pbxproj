@@ -15,7 +15,7 @@
 		A6B21C201AA7C12C005FA5B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B21C1E1AA7C12C005FA5B6 /* LaunchScreen.xib */; };
 		A6B21C2C1AA7C12C005FA5B6 /* HackathonTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C2B1AA7C12C005FA5B6 /* HackathonTemplateTests.m */; };
 		A6B21C3B1AA7C263005FA5B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C381AA7C263005FA5B6 /* AppDelegate.m */; };
-		A6B21C3C1AA7C263005FA5B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C3A1AA7C263005FA5B6 /* ViewController.m */; };
+		A6B21C3C1AA7C263005FA5B6 /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B21C3A1AA7C263005FA5B6 /* HTViewController.m */; };
 		A6B21C411AA8E62C005FA5B6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C3F1AA8E62C005FA5B6 /* Bolts.framework */; };
 		A6B21C421AA8E62C005FA5B6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C401AA8E62C005FA5B6 /* Parse.framework */; };
 		A6B21C461AA8E67E005FA5B6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B21C451AA8E67E005FA5B6 /* AudioToolbox.framework */; };
@@ -59,8 +59,8 @@
 		A6B21C2B1AA7C12C005FA5B6 /* HackathonTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackathonTemplateTests.m; sourceTree = "<group>"; };
 		A6B21C371AA7C263005FA5B6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		A6B21C381AA7C263005FA5B6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		A6B21C391AA7C263005FA5B6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/ViewController.h; sourceTree = "<group>"; };
-		A6B21C3A1AA7C263005FA5B6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/ViewController.m; sourceTree = "<group>"; };
+		A6B21C391AA7C263005FA5B6 /* HTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTViewController.h; path = Classes/HTViewController.h; sourceTree = "<group>"; };
+		A6B21C3A1AA7C263005FA5B6 /* HTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTViewController.m; path = Classes/HTViewController.m; sourceTree = "<group>"; };
 		A6B21C3E1AA7C382005FA5B6 /* HackathonTemplate-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackathonTemplate-prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A6B21C3F1AA8E62C005FA5B6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Third Party/parse-library-1.6.4/Bolts.framework"; sourceTree = "<group>"; };
 		A6B21C401AA8E62C005FA5B6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Third Party/parse-library-1.6.4/Parse.framework"; sourceTree = "<group>"; };
@@ -160,11 +160,10 @@
 		A6B21C0B1AA7C12C005FA5B6 /* HackathonTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				A6B21C621AA8EDE0005FA5B6 /* Nibs */,
 				A6B21C3D1AA7C266005FA5B6 /* Source */,
-				A6B21C431AA8E636005FA5B6 /* Third Party */,
-				A6B21C191AA7C12C005FA5B6 /* Main.storyboard */,
+				A6B21C631AA8EDED005FA5B6 /* Resources */,
 				A6B21C1C1AA7C12C005FA5B6 /* Images.xcassets */,
-				A6B21C1E1AA7C12C005FA5B6 /* LaunchScreen.xib */,
 				A6B21C131AA7C12C005FA5B6 /* HackathonTemplate.xcdatamodeld */,
 				A6B21C0C1AA7C12C005FA5B6 /* Supporting Files */,
 			);
@@ -203,8 +202,8 @@
 			children = (
 				A6B21C371AA7C263005FA5B6 /* AppDelegate.h */,
 				A6B21C381AA7C263005FA5B6 /* AppDelegate.m */,
-				A6B21C391AA7C263005FA5B6 /* ViewController.h */,
-				A6B21C3A1AA7C263005FA5B6 /* ViewController.m */,
+				A6B21C391AA7C263005FA5B6 /* HTViewController.h */,
+				A6B21C3A1AA7C263005FA5B6 /* HTViewController.m */,
 				A6B21C5F1AA8E965005FA5B6 /* HTParseManager.h */,
 				A6B21C601AA8E965005FA5B6 /* HTParseManager.m */,
 			);
@@ -226,6 +225,23 @@
 				A6B21C401AA8E62C005FA5B6 /* Parse.framework */,
 			);
 			name = Parse;
+			sourceTree = "<group>";
+		};
+		A6B21C621AA8EDE0005FA5B6 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				A6B21C191AA7C12C005FA5B6 /* Main.storyboard */,
+				A6B21C1E1AA7C12C005FA5B6 /* LaunchScreen.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		A6B21C631AA8EDED005FA5B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6B21C431AA8E636005FA5B6 /* Third Party */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F1D632A473C35C2A48A3F268 /* Pods */ = {
@@ -283,6 +299,7 @@
 		A6B21C011AA7C12C005FA5B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HT;
 				LastUpgradeCheck = 0610;
 				TargetAttributes = {
 					A6B21C081AA7C12C005FA5B6 = {
@@ -374,7 +391,7 @@
 				A6B21C611AA8E965005FA5B6 /* HTParseManager.m in Sources */,
 				A6B21C151AA7C12C005FA5B6 /* HackathonTemplate.xcdatamodeld in Sources */,
 				A6B21C0F1AA7C12C005FA5B6 /* main.m in Sources */,
-				A6B21C3C1AA7C263005FA5B6 /* ViewController.m in Sources */,
+				A6B21C3C1AA7C263005FA5B6 /* HTViewController.m in Sources */,
 				A6B21C3B1AA7C263005FA5B6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
