@@ -160,8 +160,8 @@
 		A6B21C0B1AA7C12C005FA5B6 /* HackathonTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				A6B21C621AA8EDE0005FA5B6 /* Nibs */,
 				A6B21C3D1AA7C266005FA5B6 /* Source */,
+				A6B21C621AA8EDE0005FA5B6 /* Nibs */,
 				A6B21C631AA8EDED005FA5B6 /* Resources */,
 				A6B21C1C1AA7C12C005FA5B6 /* Images.xcassets */,
 				A6B21C131AA7C12C005FA5B6 /* HackathonTemplate.xcdatamodeld */,
