@@ -59,14 +59,14 @@ NSString * const HTParseBaseURLString = @"https://api.parse.com/1/";
     [[[self sessionManager] reachabilityManager] startMonitoring];
 }
 
+#pragma mark - Examples of posting and retrieving objects to Parse
+
 - (void)postObjectWithTitle:(NSString *)title file:(PFFile*)file {
     PFObject *object = [PFObject objectWithClassName:@"YourObject"];
     [object setValue:title forKey:@"title"];
     [object setObject:file forKey:@"file"];
     [object save];
 }
-
-#pragma mark - asdf
 
 - (void)getObjectsWithCompletion:(void(^)(NSArray *objects, NSError *error))completion {
     PFQuery *query = [PFQuery queryWithClassName:@"YourObject"];
