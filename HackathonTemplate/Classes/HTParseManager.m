@@ -14,7 +14,6 @@ NSString * const HTParseApplicationID = @"YOUR APPLICATION ID HERE";
 NSString * const HTParseClientKey = @"YOUR CLIENT KEY HERE";
 
 NSString * const HTParseBaseURLString = @"https://api.parse.com/1/";
-NSString * const kHTUploadProgress = @"kHTUploadProgress";
 
 @interface HTParseManager ()
 @property (nonatomic, strong) AFHTTPSessionManager *sessionManager;
