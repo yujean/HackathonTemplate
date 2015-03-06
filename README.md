@@ -23,3 +23,7 @@
 * You'll have a 'single view application', from which you can expand on.
 * See Parse [docs](https://www.parse.com/docs) and [tutorials](https://www.parse.com/tutorials) for some guidance!
 * Have fun!
+
+### Gotchas
+
+* If the app doesn't run after cloning, try cleaning derived data: ``⌘+Shift+Option+K`` ``[enter]``
