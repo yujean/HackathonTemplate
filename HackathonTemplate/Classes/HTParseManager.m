@@ -8,7 +8,7 @@
 
 #import "HTParseManager.h"
 
-#pragma message("Insert your Client Key from Parse here")
+#pragma message("Insert your Application ID from Parse here")
 NSString * const HTParseApplicationID = @"YOUR APPLICATION ID HERE";
 #pragma message("Insert your Client Key from Parse here")
 NSString * const HTParseClientKey = @"YOUR CLIENT KEY HERE";
