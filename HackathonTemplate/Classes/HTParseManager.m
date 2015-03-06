@@ -7,6 +7,7 @@
 //
 
 #import "HTParseManager.h"
+#import <Parse/Parse.h>
 
 #pragma message("Insert your Client Key from Parse here")
 NSString * const HTParseApplicationID = @"YOUR APPLICATION ID HERE";
@@ -58,6 +59,24 @@ NSString * const kHTUploadProgress = @"kHTUploadProgress";
         }
     }];
     [[[self sessionManager] reachabilityManager] startMonitoring];
+}
+
+- (void)postBudWithSongTitle:(NSString *)theSongTitle artistName:(NSString *)theArtistName songFile:(PFFile*)theFile
+{
+    PFObject *object = [PFObject objectWithClassName:@"Bud"];
+    [object setValue:theSongTitle forKey:@"songTitle"];
+    [object setValue:theArtistName forKey:@"artistName"];
+    [object setObject:theFile forKey:@"songFile"];
+    [object save];
+}
+
+#pragma mark - asdf
+
+- (void)getBudObjectsWithCompletion:(void(^)(NSArray *budObjects, NSError *error))completion {
+    PFQuery *budQuery = [PFQuery queryWithClassName:@"Bud"];
+    [budQuery findObjectsInBackgroundWithBlock:^(NSArray *buds, NSError *error) {
+        completion(buds, error);
+    }];
 }
 
 /*
